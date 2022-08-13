@@ -1,0 +1,8 @@
+{
+    "name": "Toronto Coffee Club Data Science",
+    "service": "jupyter",
+    "dockerComposeFile": "docker-compose.yaml",
+    "workspaceFolder": "/home/jovyan/work",
+    "extensions": ["ms-python.python", "ms-python.vscode-pylance", "ms-toolsai.jupyter"],
+    "shutdownAction": "stopCompose"
+  }

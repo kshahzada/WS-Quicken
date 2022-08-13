@@ -1,0 +1,15 @@
+{
+    "jupyter.jupyterServerType": "local",
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.defaultInterpreterPath": "/opt/conda/bin/python",
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "120"
+    ],
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=E402",
+    ]
+}

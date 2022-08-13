@@ -1,0 +1,12 @@
+  
+version: '3.6'
+
+services:
+  jupyter:
+    image: jupyter/scipy-notebook
+    volumes:
+      - type: bind
+        source: .
+        target: /home/jovyan/work
+    ports:
+      - 8888:8888
