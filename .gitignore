@@ -1,5 +1,7 @@
 *.creds.*
 *.secret.*
 
+*/pdfs/*
+
 .DS_Store
 __pycache__

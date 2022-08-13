@@ -3,7 +3,7 @@ version: '3.6'
 
 services:
   jupyter:
-    image: jupyter/scipy-notebook
+    image: jupyter/pyspark-notebook
     volumes:
       - type: bind
         source: .
